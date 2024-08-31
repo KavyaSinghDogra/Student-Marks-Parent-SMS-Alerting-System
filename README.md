@@ -1,2 +1,2 @@
-# Student-Marks-Parent-SMS-Alerting-System
-Student Marks Parent SMS Alerting System
+# student-online-marks-alert-system-main
+I developed this system using python and flask framework.
