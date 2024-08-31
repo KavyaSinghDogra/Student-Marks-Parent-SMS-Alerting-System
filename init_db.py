@@ -32,9 +32,9 @@ cursor.execute('''
 
 # Insert sample data into students table
 students_data = [
-    (1, 'Kavya', '+919149023700'),
-    (2, 'Jane Smith', '+917451053614'),
-    (3, 'Emily Davis', '+917456986265'),
+    (1, 'x', '+no'),
+    (2, 'Jane Smith', '+num'),
+    (3, 'Emily Davis', '+num'),
     (4, 'Michael Brown', '+1234567893')
 ]
 
