@@ -5,7 +5,7 @@ from twilio.rest import Client
 import sqlite3
 
 app = Flask(__name__)
-app.secret_key = '41cdef6fb14cdb548585e3d17a55a66e'
+app.secret_key = '#enter key'
 
 # Configure Flask-Login
 login_manager = LoginManager()
@@ -13,9 +13,9 @@ login_manager.init_app(app)
 login_manager.login_view = 'login'
 
 # Configure Twilio
-account_sid = 'AC2a11988779c723b7b38aaa6445335791'
-auth_token = '114a438b7665d239a3620b661940a97c'
-twilio_number = '+16815081453'
+account_sid = '#enter id'
+auth_token = '#enter token'
+twilio_number = '#enter number'
 client = Client(account_sid, auth_token)
 
 # User model
